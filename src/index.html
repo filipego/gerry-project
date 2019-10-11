@@ -11,24 +11,40 @@
       href="https://fonts.googleapis.com/css?family=Lato&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
     <title>Gerry Project</title>
   </head>
   <body>
     <div class="container-fluid ">
       <header class="header">
-        <img src="" alt="" class="logo" />
+        <div class="container">
+          <a href="#"><img src="public/img/logo.gif" alt="" class="logo"/></a>
+        </div>
       </header>
-      <div class="back-button-container"></div>
+      <div class="container back-button-container">
+        <a href="#" class="link-back"
+          ><i class="fas fa-long-arrow-alt-left"></i> Return to Results</a
+        >
+      </div>
       <section class="top-banner"></section>
       <section class="container info">
-        <div class="container__extra-padding">
-          <div class="col-left">
+        <div class="container__extra-padding flexbox ">
+          <div class="col col-left">
             <h2 class="h2">
               Brandywine Living<br />
               @ Huntington Terrace
             </h2>
             <p>70 Pinelawn Road, Melville, NY 11747</p>
+            <div class="btn-container">
+              <a href="#" class="btn btn--green"><span>Book a Tour</span></a>
+              <a href="#" class="btn"><span>Add to Favorites</span></a>
+            </div>
           </div>
+
+          <div class="col col-right">Content</div>
         </div>
       </section>
       <section class="container notes-from-rosemary">
@@ -36,6 +52,28 @@
       </section>
       <section class="container overview">
         <h2>Overview</h2>
+        <div class="flexbox">
+          <div class="col col-left">Content</div>
+          <div class="col col-right">
+            <h3>A Vibrant Lifestyle–Independent Living and Assisted Living.</h3>
+            <p>
+              Brandywine Living at Huntington Terrace provides beautiful suites
+              designed with comfort, privacy and safety in mind. The grounds are
+              beautifully landscaped and residents take advantage of the
+              magnificent scenery in the spring and fall. Huntington Terrace is
+              an extraordinary senior living community offering two distinct
+              options: assisted living and independent living; all on one
+              beautiful 12-acre campus. Whether it is the resort-like setting of
+              independent living, the elegant, distinguished atmosphere of
+              assisted living, or our state-of-the-art Reflections memory care
+              program, Huntington Terrace is designed to have something for
+              everyone. Whether it’s our extraordinary assisted living or our
+              care-free independent apartments, our residents have exciting,
+              educational and, at times, adventurous activities that can
+              rejuvenate the spirit and enhance the quality of their lives.
+            </p>
+          </div>
+        </div>
       </section>
       <section class="container image">
         <h2>Images</h2>
@@ -44,7 +82,13 @@
       <section class="container building-facts">
         <h2>Building Facts</h2>
       </section>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="container container--no-border">
+          <a href="#"
+            ><img src="public/img/logo-white.png" alt="" class="logo-white"
+          /></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
