@@ -1,0 +1,16 @@
+$body-color: #333;
+
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: $body-color;
+}
+
+.container-fluid {
+  max-width: 144rem;
+  margin: 0 auto;
+}
