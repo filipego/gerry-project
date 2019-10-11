@@ -37,19 +37,22 @@ h3 {
   margin-bottom: 3rem;
 }
 
+h4 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
 p {
   font-size: 2rem;
   line-height: 2.5rem;
   color: $body-color;
 }
 a {
+  font-size: 2rem;
+  text-decoration: none;
   color: $primary-color;
   &:hover {
     color: lighten($primary-color, 15%);
-  }
-  &.link-back {
-    font-size: 2rem;
-    text-decoration: none;
   }
   &.btn {
     font-size: 2rem;
@@ -63,8 +66,14 @@ a {
     background: $primary-color;
     color: white;
     margin-right: 3rem;
+    &:hover {
+      background: lighten($primary-color, 10%);
+    }
     &--green {
       background: $secondary-color;
+      &:hover {
+        background: lighten($secondary-color, 10%);
+      }
     }
   }
 }
@@ -111,7 +120,7 @@ a {
 }
 
 .header {
-  border-bottom: 1px solid $border-color-light;
+  border-bottom: 0.1rem solid $border-color-light;
   .container {
     border: none;
   }
@@ -149,8 +158,61 @@ a {
 }
 
 .overview {
+  &__container {
+    padding-top: 2rem;
+  }
+  .col-left {
+    .profile {
+      &__info {
+        align-self: center;
+        h3 {
+          margin-bottom: 0;
+        }
+      }
+      img {
+        width: 9.6rem;
+        height: auto;
+        margin-right: 2rem;
+      }
+    }
+  }
   .col-right {
     padding-right: 2rem;
+  }
+}
+
+.building-facts {
+  &__list {
+    ul {
+      border: 0.1rem solid $border-color-light;
+      width: 31.333333%;
+      margin-right: 3rem;
+      &:last-child {
+        margin-right: 0;
+      }
+      li {
+        padding: 1.5rem;
+        border-bottom: 0.1rem solid $border-color-light;
+        font-size: 1.8rem;
+        color: $body-color;
+        &:last-child {
+          border-bottom: none;
+        }
+        &.no-bottom-border {
+          color: #6d63fb;
+        }
+      }
+    }
+  }
+  .view-more {
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    &__link {
+      .fas {
+        margin-left: 1rem;
+      }
+    }
   }
 }
 
