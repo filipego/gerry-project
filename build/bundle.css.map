@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/styles/index.scss"],"names":[],"mappings":"AAAA;AACA;AACA,mBAAmB;;AAEnB;AACA;AACA,cAAc;;AAEd;AACA;AACA,iBAAiB","file":"bundle.css","sourcesContent":["html {\n  /* 1rem = 10px */\n  font-size: 62.5%; }\n\nbody {\n  font-size: 1.6rem;\n  color: #333; }\n\n.container-fluid {\n  max-width: 144rem;\n  margin: 0 auto; }\n"],"sourceRoot":""}
