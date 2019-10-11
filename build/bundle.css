@@ -4,11 +4,63 @@ html {
 
 body {
   font-size: 1.6rem;
-  color: #333; }
+  color: #002b44;
+  font-family: "Lato", sans-serif; }
+
+h2 {
+  color: #1fdca7;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  margin-bottom: 3rem; }
+  h2.h2 {
+    color: #002b44;
+    font-size: 4rem;
+    line-height: 4.75rem; }
+
+p {
+  font-size: 2.25rem; }
+
+.img-responsive {
+  width: 100%;
+  height: auto; }
 
 .container-fluid {
   max-width: 144rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  min-height: 100vh; }
+
+.container {
+  max-width: 139.3rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #f2f2f2; }
+  .container__extra-padding {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
+.header {
+  height: 8rem;
+  border-bottom: 1px solid #f2f2f2; }
+
+.back-button-container {
+  height: 6.4rem; }
+
+.top-banner {
+  height: 32rem;
+  background-color: aqua;
+  background-image: url(src/img/top-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom; }
+
+.info {
+  padding-top: 2.5rem;
+  padding-bottom: 5rem; }
+
+.footer {
+  background-color: #002b44;
+  height: 32rem; }
 
 
 /*# sourceMappingURL=bundle.css.map*/
