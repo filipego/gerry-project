@@ -49,7 +49,7 @@ p {
 .top-banner {
   height: 32rem;
   background-color: aqua;
-  background-image: url(src/img/top-banner.jpg);
+  background-image: url("/public/img/top-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom; }
